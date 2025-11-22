@@ -2,7 +2,7 @@
 
 import csv
 
-file = open("Sample_Data/students.csv", "r")
+file = open("Data/students.csv", "r")
 reader = csv.reader(file)
 
 students = []

@@ -37,13 +37,13 @@ env/
 Thumbs.db
 
 # Generated data files
-Sample_Data/*.dat
-Sample_Data/output.txt
-Sample_Data/destination.txt
-Sample_Data/merged.txt
-Sample_Data/users.csv
-Sample_Data/data.csv
-Sample_Data/students.csv
+Data/*.dat
+Data/output.txt
+Data/destination.txt
+Data/merged.txt
+Data/users.csv
+Data/data.csv
+Data/students.csv
 
 # Logs
 /tmp/

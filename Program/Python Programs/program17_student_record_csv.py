@@ -3,7 +3,7 @@
 import csv
 
 def add_record():
-    file = open("Sample_Data/students.csv", "a", newline='')
+    file = open("Data/students.csv", "a", newline='')
     writer = csv.writer(file)
     
     roll = int(input("Enter roll number: "))
@@ -15,7 +15,7 @@ def add_record():
     print("Record added successfully!")
 
 def display_records():
-    file = open("Sample_Data/students.csv", "r")
+    file = open("Data/students.csv", "r")
     reader = csv.reader(file)
     
     print("\nStudent Records:")

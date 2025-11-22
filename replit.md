@@ -30,7 +30,7 @@ Located in `Program/Python-MySQL/`
 - All programs written in student-friendly style
 - Simple variable names and comments
 - Typical 12th grade coding patterns
-- Sample data files included for testing
+- Data files included for testing
 - Comprehensive README with instructions
 
 ## Recent Changes

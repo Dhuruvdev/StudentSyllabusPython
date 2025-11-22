@@ -1,6 +1,6 @@
 # Program 2: Count vowels, consonants, uppercase and lowercase letters in a text file
 
-file = open("Sample_Data/sample.txt", "r")
+file = open("Data/sample.txt", "r")
 
 vowels = 0
 consonants = 0

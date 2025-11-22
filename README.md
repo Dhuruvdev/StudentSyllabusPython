@@ -10,7 +10,7 @@ Program/
 ├── SQL Queries/         (10 Queries - Part B)
 └── Python-MySQL/        (5 Programs - Part C)
 
-Sample_Data/             (Sample files for testing)
+Data/             (Sample files for testing)
 ```
 
 ## Part A: Python Programs (20 Programs)
@@ -113,7 +113,7 @@ Use `mysql.connector` module for all programs.
 
 ## Sample Data Files
 
-The `Sample_Data/` folder contains sample files for testing:
+The `Data/` folder contains sample files for testing:
 - sample.txt - For programs 1, 2
 - input.txt - For program 3
 - source.txt - For program 8

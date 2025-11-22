@@ -1,8 +1,8 @@
 # Program 20: Merge contents of two text files into one
 
-file1 = open("Sample_Data/file1.txt", "r")
-file2 = open("Sample_Data/file2.txt", "r")
-file3 = open("Sample_Data/merged.txt", "w")
+file1 = open("Data/file1.txt", "r")
+file2 = open("Data/file2.txt", "r")
+file3 = open("Data/merged.txt", "w")
 
 for line in file1:
     file3.write(line)

@@ -1,0 +1,4 @@
+Program 9: Factorial using Recursion
+===========================
+Output:
+Factorial of 5 is 120

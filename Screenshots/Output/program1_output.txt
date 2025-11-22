@@ -1,0 +1,7 @@
+Program 1: Read Text File
+===========================
+Output:
+Hello#World#
+This#is#a#Sample#Text#File#
+Python#Programming#is#Fun#
+Learn#Computer#Science#

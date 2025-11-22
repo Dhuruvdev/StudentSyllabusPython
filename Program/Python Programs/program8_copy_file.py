@@ -1,7 +1,7 @@
 # Program 8: Program to copy content from one file to another
 
-source = open("Sample_Data/source.txt", "r")
-destination = open("Sample_Data/destination.txt", "w")
+source = open("Data/source.txt", "r")
+destination = open("Data/destination.txt", "w")
 
 for line in source:
     destination.write(line)

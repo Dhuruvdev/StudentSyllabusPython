@@ -1,0 +1,6 @@
+Program 4: Binary File Search
+===========================
+Output:
+Binary file created successfully!
+Name: Priya
+Roll Number: 102

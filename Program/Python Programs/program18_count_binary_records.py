@@ -2,7 +2,7 @@
 
 import pickle
 
-file = open("Sample_Data/marks.dat", "rb")
+file = open("Data/marks.dat", "rb")
 records = pickle.load(file)
 file.close()
 

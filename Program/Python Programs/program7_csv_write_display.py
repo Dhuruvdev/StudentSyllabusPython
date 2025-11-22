@@ -2,7 +2,7 @@
 
 import csv
 
-file = open("Sample_Data/data.csv", "w", newline='')
+file = open("Data/data.csv", "w", newline='')
 writer = csv.writer(file)
 
 writer.writerow(["Name", "Age", "City"])
@@ -14,7 +14,7 @@ file.close()
 print("Data written to CSV file!\n")
 
 print("Contents of CSV file:")
-file = open("Sample_Data/data.csv", "r")
+file = open("Data/data.csv", "r")
 reader = csv.reader(file)
 
 for row in reader:

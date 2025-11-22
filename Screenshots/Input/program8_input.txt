@@ -1,0 +1,6 @@
+Program 8: Copy File
+===========================
+Source File (Data/source.txt):
+This is the source file.
+It contains some sample text.
+This will be copied to another file.

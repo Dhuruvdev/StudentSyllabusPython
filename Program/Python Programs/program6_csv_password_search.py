@@ -3,7 +3,7 @@
 import csv
 
 def create_csv():
-    file = open("Sample_Data/users.csv", "w", newline='')
+    file = open("Data/users.csv", "w", newline='')
     writer = csv.writer(file)
     writer.writerow(["UserID", "Password"])
     writer.writerow(["user1", "pass123"])
@@ -14,7 +14,7 @@ def create_csv():
 
 def search_password():
     userid = input("Enter User ID: ")
-    file = open("Sample_Data/users.csv", "r")
+    file = open("Data/users.csv", "r")
     reader = csv.reader(file)
     next(reader)
     

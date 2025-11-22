@@ -3,7 +3,7 @@
 import pickle
 
 def create_file():
-    file = open("Sample_Data/students.dat", "wb")
+    file = open("Data/students.dat", "wb")
     students = [
         {"name": "Rahul", "roll": 101},
         {"name": "Priya", "roll": 102},
@@ -16,7 +16,7 @@ def create_file():
 
 def search_roll():
     roll_no = int(input("Enter roll number to search: "))
-    file = open("Sample_Data/students.dat", "rb")
+    file = open("Data/students.dat", "rb")
     students = pickle.load(file)
     file.close()
     

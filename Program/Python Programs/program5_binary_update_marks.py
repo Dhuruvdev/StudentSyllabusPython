@@ -3,7 +3,7 @@
 import pickle
 
 def create_file():
-    file = open("Sample_Data/marks.dat", "wb")
+    file = open("Data/marks.dat", "wb")
     records = [
         {"roll": 1, "name": "Aman", "marks": 85},
         {"roll": 2, "name": "Sonia", "marks": 90},
@@ -17,7 +17,7 @@ def update_marks():
     roll_no = int(input("Enter roll number: "))
     new_marks = int(input("Enter new marks: "))
     
-    file = open("Sample_Data/marks.dat", "rb")
+    file = open("Data/marks.dat", "rb")
     records = pickle.load(file)
     file.close()
     
@@ -27,7 +27,7 @@ def update_marks():
             print("Marks updated successfully!")
             break
     
-    file = open("Sample_Data/marks.dat", "wb")
+    file = open("Data/marks.dat", "wb")
     pickle.dump(records, file)
     file.close()
 
