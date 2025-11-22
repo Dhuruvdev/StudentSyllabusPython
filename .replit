@@ -24,3 +24,93 @@ args = "python demo.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow]]
+name = "Program 1"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program1_read_text_file.py\""
+
+[[workflows.workflow]]
+name = "Program 2"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program2_count_letters.py\""
+
+[[workflows.workflow]]
+name = "Program 3"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program3_remove_lines.py\""
+
+[[workflows.workflow]]
+name = "Program 6"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program6_csv_password_search.py\""
+
+[[workflows.workflow]]
+name = "Program 9"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program9_factorial_recursion.py\""
+
+[[workflows.workflow]]
+name = "Program 10"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program10_division_exception.py\""
+
+[[workflows.workflow]]
+name = "Program 12"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program12_fibonacci_recursion.py\""
+
+[[workflows.workflow]]
+name = "Program 13"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program13_stack_implementation.py\""
+
+[[workflows.workflow]]
+name = "Program 16"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program16_password_generator.py\""
+
+[[workflows.workflow]]
+name = "Program 20"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program20_merge_files.py\""
