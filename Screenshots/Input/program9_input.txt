@@ -1,4 +1,0 @@
-Program 9: Factorial using Recursion
-===========================
-User Input:
-Enter a number: 5

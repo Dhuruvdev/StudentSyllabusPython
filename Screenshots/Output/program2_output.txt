@@ -1,7 +1,0 @@
-Program 2: Count Letters
-===========================
-Output:
-Vowels: 32
-Consonants: 46
-Uppercase: 12
-Lowercase: 66

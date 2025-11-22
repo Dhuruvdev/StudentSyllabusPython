@@ -1,6 +1,0 @@
-Program 8: Copy File
-===========================
-Output:
-File copied successfully!
-
-(Content copied to Data/destination.txt)

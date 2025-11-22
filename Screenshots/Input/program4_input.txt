@@ -1,4 +1,0 @@
-Program 4: Binary File Search
-===========================
-User Input:
-Enter roll number to search: 102

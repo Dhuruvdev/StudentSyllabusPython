@@ -1,3 +1,0 @@
-Program 7: Write and Display CSV
-===========================
-(No user input required - program creates its own data)

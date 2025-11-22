@@ -10,7 +10,8 @@ Program/
 ├── SQL Queries/         (10 Queries - Part B)
 └── Python-MySQL/        (5 Programs - Part C)
 
-Data/             (Sample files for testing)
+Data/                    (Test files)
+Screenshots/             (Program screenshots with code and output)
 ```
 
 ## Part A: Python Programs (20 Programs)
@@ -111,9 +112,13 @@ Use `mysql.connector` module for all programs.
    python mysql1_insert_record.py
    ```
 
-## Sample Data Files
+## Screenshots
 
-The `Data/` folder contains sample files for testing:
+The `Screenshots/` folder contains PNG screenshots of all 20 Python programs showing code snippets and their output.
+
+## Data Files
+
+The `Data/` folder contains test files:
 - sample.txt - For programs 1, 2
 - input.txt - For program 3
 - source.txt - For program 8

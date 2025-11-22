@@ -1,9 +1,0 @@
-Program 3: Remove Lines with Comma
-===========================
-Output:
-Lines without comma have been written to output.txt
-
-Output File (Data/output.txt):
-This line has no comma
-Another line without comma
-Final line without comma

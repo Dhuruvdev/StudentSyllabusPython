@@ -39,8 +39,10 @@ Located in `Program/Python-MySQL/`
 - Added all 20 Python programs (Part A)
 - Added all 10 SQL queries (Part B)
 - Added all 5 Python-MySQL programs (Part C)
-- Created sample data files for testing
+- Created data files for testing
+- Generated 20 PNG screenshots showing code and output
 - Added comprehensive documentation
+- Renamed Sample_Data to Data for simplicity
 
 ## How to Use
 1. Navigate to the desired program folder
