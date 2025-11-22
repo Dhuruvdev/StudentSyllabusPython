@@ -114,3 +114,75 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python \"Program/Python Programs/program20_merge_files.py\""
+
+[[workflows.workflow]]
+name = "Program 4"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program4_binary_search_roll.py\""
+
+[[workflows.workflow]]
+name = "Program 5"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program5_binary_update_marks.py\""
+
+[[workflows.workflow]]
+name = "Program 7"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program7_csv_write_display.py\""
+
+[[workflows.workflow]]
+name = "Program 8"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program8_copy_file.py\""
+
+[[workflows.workflow]]
+name = "Program 11"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program11_prime_check.py\""
+
+[[workflows.workflow]]
+name = "Program 17"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program17_student_record_csv.py\""
+
+[[workflows.workflow]]
+name = "Program 18"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program18_count_binary_records.py\""
+
+[[workflows.workflow]]
+name = "Program 19"
+author = 50063095
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python \"Program/Python Programs/program19_top3_students.py\""
