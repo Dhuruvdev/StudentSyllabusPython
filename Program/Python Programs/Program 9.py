@@ -1,9 +1,9 @@
-# Program 9: Calculate factorial using recursion
-
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n - 1)
+# Program 9: Calculate factorial using loop
 
 num = int(input("Enter a number: "))
-print("Factorial:", factorial(num))
+result = 1
+
+for i in range(1, num + 1):
+    result = result * i
+
+print("Factorial:", result)
