@@ -1,4 +1,4 @@
-modules = ["python-3.11"]
+modules = ["python-3.12"]
 [agent]
 expertMode = true
 
@@ -186,3 +186,6 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python \"Program/Python Programs/program19_top3_students.py\""
+
+[nix]
+channel = "stable-25_05"
