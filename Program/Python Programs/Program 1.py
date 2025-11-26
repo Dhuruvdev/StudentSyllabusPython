@@ -1,4 +1,4 @@
-# Program 1: Read a text file line by line and display each word separated by #
+# Program 1: Read a text file and display each word separated by #
 
 file = open("Data/sample.txt", "r")
 for line in file:

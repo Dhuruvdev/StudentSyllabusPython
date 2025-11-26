@@ -1,4 +1,4 @@
-# Program 3: Remove all lines containing the character ',' and write remaining lines to another file
+# Program 3: Remove lines with commas and save to new file
 
 file1 = open("Data/input.txt", "r")
 file2 = open("Data/output.txt", "w")
@@ -9,5 +9,4 @@ for line in file1:
 
 file1.close()
 file2.close()
-
-print("Lines without comma have been written to output.txt")
+print("Done! Lines without commas saved to output.txt")
